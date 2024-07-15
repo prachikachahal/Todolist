@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+align-items: centre;
+}
+.head{
+  background-color: rgba(230, 208, 17, 0.959);
+  text-align: center;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 6px 6px rgb(0,0,0,0.1);
+}
+.todoform{
+  background-color: white;
+  border-radius: 8px;
+  padding:20px;
+  width:500px;
+  margin: 0 auto;
+  margin-top:40px;
+  box-shadow: 0 6px 6px rgb(0,0,0,0.1);
+  display: flex;
+}
+.moderninput{
+  display:block;
+  width:100%;
+  border:none;
+  font-size: 16px;
+  color:black;
+  focus{
+    outline: none;
+  }
+}
+.modernbutton{
+  display: inline-block;
+  border:none;
+  border-radius: 4px;
+  background-color: rgba(230, 208, 17, 0.959);
+  box-shadow: 4px 4px 6px rgb(0,0,0,0.1);
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer;
+}
+.list{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px rgb(0,0,0,0.1);
+   width: 500px;
+   margin-left:268px;
+   padding: 20px;
+   margin-top: 50px;
+   cursor: pointer;
+}
+.delete{
+  background-color:rgba(230, 208, 17, 0.959);
+  border-color:white;
+  border-radius: 5px;
+  size: 100px;
+  position: centre;
+  width: 50px;
+  height:30px;
+  padding: 2px 18px;
+  color: white;
+  cursor: pointer;
+  float:right;
+  box-shadow: 4px 4px 6px rgb(0,0,0,0.1);
+}
+.completed{
+text-decoration: line-through;
+}

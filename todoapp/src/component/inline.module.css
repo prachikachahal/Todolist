@@ -1,0 +1,15 @@
+.colors{
+    text-decoration: line-through;
+}
+.footer{
+    width:100%;
+    background-color:rgba(230, 208, 17, 0.959);
+    bottom:0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+}
+.item{
+margin: 50px;
+}
